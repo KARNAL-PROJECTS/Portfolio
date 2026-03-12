@@ -10,3 +10,20 @@ backSpeed:40,
 loop:true
 })
 </script>
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#111;
+padding:20px;
+border-radius:10px;
+transition:.3s;
+}
+
+.skill:hover{
+background:#ff1a1a;
+                             }
